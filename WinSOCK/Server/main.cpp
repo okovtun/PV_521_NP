@@ -112,16 +112,16 @@ void main()
 	cout << inet_ntoa(client_address.sin_addr) << ":" << ntohs(client_address.sin_port) << endl;;
 
 	//7) Получение и отправка данных:
-	CHAR recvbuffer[BUFFER_LENGTH] = {};
-	CHAR sendbuffer[BUFFER_LENGTH] = {};
 	INT iSendResult = 0;
 	do
 	{
+		CHAR sendbuffer[BUFFER_LENGTH] = {};
+		CHAR recvbuffer[BUFFER_LENGTH] = {};
 		iResult = recv(client_socket, recvbuffer, BUFFER_LENGTH, 0);
 		dwError = WSAGetLastError();
 		if (iResult > 0)
 		{
-			cout << recvbuffer << "(" << strlen(recvbuffer) <<" Bytes)" << endl;
+			cout << recvbuffer << "(" << strlen(recvbuffer) << " Bytes)" << endl;
 			iSendResult = send(client_socket, recvbuffer, strlen(recvbuffer), 0);
 			dwError = WSAGetLastError();
 			if (iSendResult == SOCKET_ERROR)
@@ -143,11 +143,11 @@ void main()
 
 	iResult = shutdown(client_socket, SD_BOTH);
 	dwError = WSAGetLastError();
-	if (iResult == SOCKET_ERROR)cout << "Client shutdown failed with  " << FormatLastError(dwError,szError) << endl;
+	if (iResult == SOCKET_ERROR)cout << "Client shutdown failed with  " << FormatLastError(dwError, szError) << endl;
 
 	iResult = shutdown(listen_socket, SD_BOTH);
 	dwError = WSAGetLastError();
-	if (iResult == SOCKET_ERROR)cout << "Server shutdown failed with  " << FormatLastError(dwError,szError) << endl;
+	if (iResult == SOCKET_ERROR)cout << "Server shutdown failed with  " << FormatLastError(dwError, szError) << endl;
 
 	closesocket(client_socket);
 	closesocket(listen_socket);
