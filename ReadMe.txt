@@ -12,6 +12,9 @@ https://learn.microsoft.com/ru-ru/message-passing-interface/microsoft-mpi
 https://learn.microsoft.com/en-us/cpp/parallel/openmp/openmp-in-visual-cpp?view=msvc-170
 
 TODO:
+1. При отключении клиента на Сервере должен освобождаться слот, на который смогут подключаться другие клиенты;
+
+TODO:
 1. Занимаемся курсовой;
 
 TODO:
