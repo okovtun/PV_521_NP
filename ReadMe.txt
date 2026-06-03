@@ -7,6 +7,13 @@ https://www.ixbt.com/nw/netcraze-ultra-nc-1812-review.html
 MAC:
 https://macvendors.com/
 
+Multithreading:
+https://learn.microsoft.com/ru-ru/message-passing-interface/microsoft-mpi
+https://learn.microsoft.com/en-us/cpp/parallel/openmp/openmp-in-visual-cpp?view=msvc-170
+
+TODO:
+1. Занимаемся курсовой;
+
 TODO:
 1. Конфигурация Сервера (IP-адрес и Порт) должны загружаться из файла;
 2. У клиента должна быть возможность вводить с клавиатуры нужный IP-адрес Сервера;
