@@ -12,6 +12,13 @@ https://learn.microsoft.com/ru-ru/message-passing-interface/microsoft-mpi
 https://learn.microsoft.com/en-us/cpp/parallel/openmp/openmp-in-visual-cpp?view=msvc-170
 
 TODO:
+1. Сообщение, написанное одним пользователем должно рассылаться всем подключенным пользователям;
+2. Обеспечить пользователю возможность вводить никнейм (по желанию). Если пользователь его не ввел, 
+   значит в общем чате отображаются его параметры подключения;
+3. Изучить теорию по потокам:
+	https://learn.microsoft.com/en-us/windows/win32/procthread/creating-threads
+
+DONE:
 1. При отключении клиента на Сервере должен освобождаться слот, на который смогут подключаться другие клиенты;
 
 TODO:
