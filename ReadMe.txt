@@ -18,6 +18,10 @@ https://learn.microsoft.com/ru-ru/message-passing-interface/microsoft-mpi
 https://learn.microsoft.com/en-us/cpp/parallel/openmp/openmp-in-visual-cpp?view=msvc-170
 
 TODO:
+1. Реализовать чат на C#, подобный чату на WinSOCK;
+	https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/socket-services
+
+DONE:
 1. Сообщение, написанное одним пользователем должно рассылаться всем подключенным пользователям;	DONE
 2. Обеспечить пользователю возможность вводить никнейм (по желанию). Если пользователь его не ввел, 
    значит в общем чате отображаются его параметры подключения;
