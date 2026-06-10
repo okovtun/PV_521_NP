@@ -4,6 +4,12 @@ https://www.youtube.com/playlist?list=PLeqyOOqxeiINKUsRe3yDLhSCqiGVM5lU9
 https://netcraze.ru/ru/netcraze-ultra
 https://www.ixbt.com/nw/netcraze-ultra-nc-1812-review.html
 
+Сетевые операционные системы:
+	https://citforum.ru/operating_systems/sos/contents.shtml
+
+Запуском/остановкой
+Поток (Thread - Нить) - это последовательность команд Центральному Процессору.
+
 MAC:
 https://macvendors.com/
 
@@ -12,11 +18,12 @@ https://learn.microsoft.com/ru-ru/message-passing-interface/microsoft-mpi
 https://learn.microsoft.com/en-us/cpp/parallel/openmp/openmp-in-visual-cpp?view=msvc-170
 
 TODO:
-1. Сообщение, написанное одним пользователем должно рассылаться всем подключенным пользователям;
+1. Сообщение, написанное одним пользователем должно рассылаться всем подключенным пользователям;	DONE
 2. Обеспечить пользователю возможность вводить никнейм (по желанию). Если пользователь его не ввел, 
    значит в общем чате отображаются его параметры подключения;
 3. Изучить теорию по потокам:
 	https://learn.microsoft.com/en-us/windows/win32/procthread/creating-threads
+4. Решить проблему закрытия сервера;
 
 DONE:
 1. При отключении клиента на Сервере должен освобождаться слот, на который смогут подключаться другие клиенты;
